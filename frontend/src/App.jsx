@@ -10,7 +10,7 @@ import DashboardPage from "./pages/DashboardPage"
 import { Loader } from "lucide-react"
 import LoadingSpinner from "./components/LoadingSpinner"
 import ForgotPasswordPage from "./pages/ForgotPasswordPage"
-import ResetPasswordPage from "./pages/ResetPasswordPAge"
+import ResetPasswordPage from "./pages/ResetPasswordPage"
 
 const ProtectedRoute=({children})=>{
   const {isAuthenticated,user}=useAuthStore()
